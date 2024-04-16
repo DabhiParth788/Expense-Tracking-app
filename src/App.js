@@ -8,6 +8,7 @@ import Category from './component/Category';
 import Graph from './component/Graph';
 import Login from './component/Login';
 import SignUp from './component/SignUp';
+import Budget from './component/Budget';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                 <Route exact path="/" element={<Dashboard />} />
                 <Route exact path="/expense" element={<Expense />} />
                 <Route exact path="/category" element={<Category />} />
+                <Route exact path="/budget" element={<Budget />} />
                 <Route exact path="/graph" element={<Graph />} />
                 <Route exact path="/login" element={<Login />} />
                 <Route exact path="/signUp" element={<SignUp />} />
