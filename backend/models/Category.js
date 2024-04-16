@@ -10,6 +10,10 @@ const CategorySchema = new Schema({
         type: String,
         required: true
     },
+    items: {
+        type: Number,
+        default: 1
+    },
     date: {
         type: Date,
         default: Date.now
